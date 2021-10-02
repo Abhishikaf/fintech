@@ -203,7 +203,7 @@ inexpensive_loans = []
 # YOUR CODE HERE!
 
 for loan_index in loans:
-    if(loan_index.get("loan_price") < 500):                         # Compare the value of the key loan_price from the dictionaries in the list of loans, to 500 using the iterator loan_index to iterate through the list
+    if(loan_index.get("loan_price") <= 500):                         # Compare the value of the key loan_price from the dictionaries in the list of loans, to 500 using the iterator loan_index to iterate through the list
         inexpensive_loans.append(loan_index)
 
 # @TODO: Print the `inexpensive_loans` list
